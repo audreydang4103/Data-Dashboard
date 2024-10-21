@@ -1,0 +1,116 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* search bar */
+.search-bar {
+  margin-bottom: 20px;
+  padding: 10px;
+  width: 100%;
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Styling for filter controls */
+.filter-controls {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.filter-controls label {
+  margin-right: 20px;
+  font-size: 1.1rem;
+}
+
+.filter-controls select {
+  margin-left: 10px;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* Statistics section */
+.summary-statistics {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.summary-statistics h2 {
+  font-size: 1.8rem;
+  color: #555;
+}
+
+.summary-statistics p {
+  font-size: 1.2rem;
+  color: #777;
+}
+
+.summary-statistics ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+/* the data list */
+.data-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.data-card {
+  background-color: white;
+  width: 250px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.data-card:hover {
+  transform: scale(1.05);
+}
+
+.data-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.4rem;
+  color: #333;
+}
+
+.data-card p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.data-card a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.data-card a:hover {
+  text-decoration: underline;
+}
