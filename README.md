@@ -1,9 +1,7 @@
-# Web Development Project 5 - *Data Dashboard*
-Submitted by: **Audrey Dang**
 
 This web app: **Data Dashboard app fetches brewery data from an API and displays it in a dashboard. It includes search and filter functionalities, and calculates summary statistics such as total breweries, brewery types, and average breweries per state. The component uses hooks like useState and useEffect to manage state and side effects.**
 
-Time spent: **9** hours spent in total
+
 
 ## Required Features
 
